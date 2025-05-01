@@ -1,4 +1,4 @@
-function canBePalidrome (str) {
+function canBePalindrome (str) {
 
     if (str === ""){
         return false
@@ -8,12 +8,12 @@ function canBePalidrome (str) {
         return true
     }
 
-    return canBePalidromeRecursion(str)
+    return canBePalindromeRecursion(str)
 }
 
 let counterOfOdds = 0
 
-function canBePalidromeRecursion (str) {
+function canBePalindromeRecursion (str) {
 
     if (str === "") {
         return true
@@ -43,8 +43,8 @@ function canBePalidromeRecursion (str) {
         }
     }
 
-    return canBePalidromeRecursion(str)
+    return canBePalindromeRecursion(str)
 }
 
 const stringToBeTested = "abbdfa"
-console.log(canBePalidrome(stringToBeTested))
+console.log(canBePalindrome(stringToBeTested))
